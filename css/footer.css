@@ -5,7 +5,7 @@
 
 .footer .container {
     display: flex;
-    align-items: baseline;
+    align-items: flex-start;
 }
 
 .footer .footer-logo {
@@ -64,4 +64,8 @@
 .footer .footer-links-item .footer-links-link:hover, .footer .footer-links-item .footer-links-link:focus {
     background-color: #31d0aa;
 
+}
+
+.footer .footer-links-item svg {
+    fill: #f4f4fd;
 }
